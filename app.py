@@ -18,8 +18,8 @@ model = load_model()
 st.write("""
 # Weather Classification Model
 """)
-st.text("Paulo Abregunda")
-st.text("Nikko Denila")
+st.text("Paulo Abregunda & Nikko Denila")
+st.text("CPE-019-CPE32S5")
 st.write("This web app classify weather conditions in uploaded images. Please follow the steps:")
 st.markdown("1. Upload an image using the 'Browse Files' button.")
 st.markdown("2. Wait for the model to process the image.")
