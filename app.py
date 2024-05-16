@@ -24,7 +24,7 @@ st.write("This web app classify weather conditions in uploaded images. Please fo
 st.markdown("1. Upload an image using the 'Browse Files' button.")
 st.markdown("2. Wait for the model to process the image.")
 st.markdown("3. View the prediction and confidence score.")
-image = Image.open('Weather_girl.jpg')
+image = Image.open('rainorshine.jpg')
 st.image(image)
 
 with st.container():
